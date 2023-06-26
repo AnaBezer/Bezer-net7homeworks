@@ -50,6 +50,7 @@ else
 Console.WriteLine($"Minimum number is {minNum}");
 Console.WriteLine($"Maximum number is {maxNum}");
 
+
 // Ex. 2
 
 Console.WriteLine("first number: ");
@@ -61,7 +62,9 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("third number: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 
-int mMin = (num1 < num2)
+// condition? statement 1 : statement 2
+
+int mMin = (num1 < num2) 
     ? ((num1 < num3) ? num1 : num3)
     : ((num2 < num3) ? num2 : num3);
 
@@ -71,6 +74,7 @@ int mMax = ( num1 > num2)
 
 Console.WriteLine("Minimum number: " + mMin);
 Console.WriteLine("Maximum number: " + mMax);
+
 
 // Ex. 3
 
@@ -82,35 +86,32 @@ int months = (totalDays % 356) / 30;
 int weeks = ((totalDays % 356) % 30 ) / 7;
 int days = ((totalDays % 356) % 30) % 7;
 
-string yearString = years == 1 ? "years" : "years";
-string monthString = months == 1 ? "months" : "months";
-string weekString = weeks == 1 ? " weeks" : "weeks";
-string dayString = days == 1 ? "days" : "days";
+string yearString = years == 1 ? "year" : "years";
+string monthString = months == 1 ? "month" : "months";
+string weekString = weeks == 1 ? " week" : "weeks";
+string dayString = days == 1 ? "day" : "days";
 
 string result = $"{years} {yearString}, {months} {monthString}, {weeks} {weekString}, {days} {dayString}";
 
 Console.WriteLine(result);
 
+
 // Ex. 4
 
-int physicMark, chemistryMark, biologyMark, mathMark, csMark;
-
 Console.Write("Physics mark: ");
-if (!int.TryParse(Console.ReadLine(), out physicMark));
-
+int physicMark = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Chemistry mark:  ");
-if (!int.TryParse(Console.ReadLine(), out chemistryMark));
+int chemistryMark = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Biology mark: ");
-if (!int.TryParse(Console.ReadLine(), out biologyMark));
+int biologyMark = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Mathematics mark: ");
-if (!int.TryParse(Console.ReadLine(), out mathMark));
+int mathMark = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Computer Science mark: ");
-if (!int.TryParse(Console.ReadLine(), out csMark));
-
+int csMark = Convert.ToInt32(Console.ReadLine());
 
 int totalMarks = physicMark + chemistryMark + biologyMark + mathMark + csMark;
 
@@ -193,5 +194,7 @@ switch (temperature)
 }
 
 
-
+int ana = 10;
+int gicu = 9;
+int dan = 8;
 
