@@ -194,7 +194,4 @@ switch (temperature)
 }
 
 
-int ana = 10;
-int gicu = 9;
-int dan = 8;
 
