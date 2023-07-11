@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1.csproj", "{9E666C30-F21B-49ED-B935-17215BDE3C8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework1", "Homework1", "{935B0EFB-E9B5-427C-B8A1-F577CF5E8B92}"
+	ProjectSection(SolutionItems) = preProject
+		Animal.cs = Animal.cs
+		Book.cs = Book.cs
+		Book1.cs = Book1.cs
+		Calculator.cs = Calculator.cs
+		College.cs = College.cs
+		Crop.cs = Crop.cs
+		Drug.cs = Drug.cs
+		Faculty.cs = Faculty.cs
+		Farm.cs = Farm.cs
+		Movie.cs = Movie.cs
+		Product.cs = Product.cs
+		Profesor.cs = Profesor.cs
+		Strudent.cs = Strudent.cs
+		Student2.cs = Student2.cs
+		University.cs = University.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E666C30-F21B-49ED-B935-17215BDE3C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E666C30-F21B-49ED-B935-17215BDE3C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E666C30-F21B-49ED-B935-17215BDE3C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E666C30-F21B-49ED-B935-17215BDE3C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8498B29-160D-499C-9481-DD47544D68F5}
+	EndGlobalSection
+EndGlobal
